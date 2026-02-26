@@ -285,7 +285,7 @@ const certifications = [
 const publications = []
 
 const resumeInfo = {
-  pdfUrl: '/Rushi-Resume.pdf',
+  pdfUrl: 'https://docs.google.com/document/d/14nSn09edJlSUTCrCpcKJw4CxTt0xW3dl/export?format=pdf',
   note: 'You can view my full resume as a PDF or read the summary below.',
 }
 
