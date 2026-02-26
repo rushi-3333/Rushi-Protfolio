@@ -103,7 +103,7 @@ const projects = [
     tech: ['React.js', 'Node.js', 'Supabase'],
     links: {
       live: '#',
-      github: '#',
+      github: 'https://github.com/rushi-3333/pulse-alumni',
       caseStudy: '#',
     },
     outcome: [
@@ -190,7 +190,7 @@ const projects = [
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     links: {
       live: '#',
-      github: '#',
+      github: 'https://github.com/rushi-3333/Rock-Paper-Scissors-Game',
       caseStudy: '#',
     },
     outcome: [
@@ -212,7 +212,7 @@ const projects = [
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     links: {
       live: '#',
-      github: '#',
+      github: 'https://github.com/rushi-3333/Simple-Calculator',
       caseStudy: '#',
     },
     outcome: [
