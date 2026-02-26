@@ -6,12 +6,12 @@ const CURRENT_YEAR = new Date().getFullYear()
 
 const navLinks = [
   { id: 'hero', label: 'Home' },
+  { id: 'about', label: 'About' },
   { id: 'education', label: 'Education' },
   { id: 'projects', label: 'Projects' },
   { id: 'skills', label: 'Skills' },
   // { id: 'experience', label: 'Experience' }, // Commented out – uncomment to show Experience section
   { id: 'achievements', label: 'Achievements' },
-  { id: 'about', label: 'About' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -470,6 +470,26 @@ function App() {
                 className="hero-photo"
               />
             </div>
+          </div>
+        </section>
+
+        <section id="about" className="section">
+          <h2>About Me</h2>
+          <p className="section-intro">
+            A bit about my background, what I focus on, and where I’m headed.
+          </p>
+          <div className="card">
+            <p>{aboutStory}</p>
+            <h4>Focus Areas</h4>
+            <ul className="chips">
+              {focusAreas.map((area) => (
+                <li key={area}>{area}</li>
+              ))}
+            </ul>
+            <h4>Career Goals</h4>
+            <p>{careerGoals}</p>
+            <h4>Beyond the Code</h4>
+            <p>{personality}</p>
           </div>
         </section>
 
